@@ -1,0 +1,317 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8310614D1BF0AD0F00B4DCEB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8310614C1BF0AD0F00B4DCEB /* main.m */; };
+		831061501BF0AD0F00B4DCEB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8310614F1BF0AD0F00B4DCEB /* AppDelegate.m */; };
+		831061531BF0AD0F00B4DCEB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 831061521BF0AD0F00B4DCEB /* ViewController.m */; };
+		831061581BF0AD0F00B4DCEB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 831061571BF0AD0F00B4DCEB /* Assets.xcassets */; };
+		8310615B1BF0AD0F00B4DCEB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 831061591BF0AD0F00B4DCEB /* LaunchScreen.storyboard */; };
+		831061641BF0AE1B00B4DCEB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 831061621BF0AE1B00B4DCEB /* Main.storyboard */; };
+		831061671BF0AE5300B4DCEB /* ITRAuthorisedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 831061661BF0AE5300B4DCEB /* ITRAuthorisedViewController.m */; };
+		831061691BF0AF1E00B4DCEB /* LocalAuthentication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 831061681BF0AF1E00B4DCEB /* LocalAuthentication.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		831061481BF0AD0F00B4DCEB /* ITRTouchAuth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ITRTouchAuth.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8310614C1BF0AD0F00B4DCEB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8310614E1BF0AD0F00B4DCEB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8310614F1BF0AD0F00B4DCEB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		831061511BF0AD0F00B4DCEB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		831061521BF0AD0F00B4DCEB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		831061571BF0AD0F00B4DCEB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8310615A1BF0AD0F00B4DCEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8310615C1BF0AD0F00B4DCEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		831061631BF0AE1B00B4DCEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		831061651BF0AE5300B4DCEB /* ITRAuthorisedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ITRAuthorisedViewController.h; sourceTree = "<group>"; };
+		831061661BF0AE5300B4DCEB /* ITRAuthorisedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ITRAuthorisedViewController.m; sourceTree = "<group>"; };
+		831061681BF0AF1E00B4DCEB /* LocalAuthentication.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LocalAuthentication.framework; path = System/Library/Frameworks/LocalAuthentication.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		831061451BF0AD0F00B4DCEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				831061691BF0AF1E00B4DCEB /* LocalAuthentication.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8310613F1BF0AD0F00B4DCEB = {
+			isa = PBXGroup;
+			children = (
+				831061681BF0AF1E00B4DCEB /* LocalAuthentication.framework */,
+				8310614A1BF0AD0F00B4DCEB /* ITRTouchAuth */,
+				831061491BF0AD0F00B4DCEB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		831061491BF0AD0F00B4DCEB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				831061481BF0AD0F00B4DCEB /* ITRTouchAuth.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8310614A1BF0AD0F00B4DCEB /* ITRTouchAuth */ = {
+			isa = PBXGroup;
+			children = (
+				831061621BF0AE1B00B4DCEB /* Main.storyboard */,
+				8310614E1BF0AD0F00B4DCEB /* AppDelegate.h */,
+				8310614F1BF0AD0F00B4DCEB /* AppDelegate.m */,
+				831061511BF0AD0F00B4DCEB /* ViewController.h */,
+				831061521BF0AD0F00B4DCEB /* ViewController.m */,
+				831061651BF0AE5300B4DCEB /* ITRAuthorisedViewController.h */,
+				831061661BF0AE5300B4DCEB /* ITRAuthorisedViewController.m */,
+				831061571BF0AD0F00B4DCEB /* Assets.xcassets */,
+				831061591BF0AD0F00B4DCEB /* LaunchScreen.storyboard */,
+				8310615C1BF0AD0F00B4DCEB /* Info.plist */,
+				8310614B1BF0AD0F00B4DCEB /* Supporting Files */,
+			);
+			path = ITRTouchAuth;
+			sourceTree = "<group>";
+		};
+		8310614B1BF0AD0F00B4DCEB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8310614C1BF0AD0F00B4DCEB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		831061471BF0AD0F00B4DCEB /* ITRTouchAuth */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8310615F1BF0AD0F00B4DCEB /* Build configuration list for PBXNativeTarget "ITRTouchAuth" */;
+			buildPhases = (
+				831061441BF0AD0F00B4DCEB /* Sources */,
+				831061451BF0AD0F00B4DCEB /* Frameworks */,
+				831061461BF0AD0F00B4DCEB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ITRTouchAuth;
+			productName = ITRTouchAuth;
+			productReference = 831061481BF0AD0F00B4DCEB /* ITRTouchAuth.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		831061401BF0AD0F00B4DCEB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "kiruthika selvavinayagam";
+				TargetAttributes = {
+					831061471BF0AD0F00B4DCEB = {
+						CreatedOnToolsVersion = 7.1;
+					};
+				};
+			};
+			buildConfigurationList = 831061431BF0AD0F00B4DCEB /* Build configuration list for PBXProject "ITRTouchAuth" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8310613F1BF0AD0F00B4DCEB;
+			productRefGroup = 831061491BF0AD0F00B4DCEB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				831061471BF0AD0F00B4DCEB /* ITRTouchAuth */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		831061461BF0AD0F00B4DCEB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8310615B1BF0AD0F00B4DCEB /* LaunchScreen.storyboard in Resources */,
+				831061641BF0AE1B00B4DCEB /* Main.storyboard in Resources */,
+				831061581BF0AD0F00B4DCEB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		831061441BF0AD0F00B4DCEB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				831061531BF0AD0F00B4DCEB /* ViewController.m in Sources */,
+				831061501BF0AD0F00B4DCEB /* AppDelegate.m in Sources */,
+				831061671BF0AE5300B4DCEB /* ITRAuthorisedViewController.m in Sources */,
+				8310614D1BF0AD0F00B4DCEB /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		831061591BF0AD0F00B4DCEB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8310615A1BF0AD0F00B4DCEB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		831061621BF0AE1B00B4DCEB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				831061631BF0AE1B00B4DCEB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8310615D1BF0AD0F00B4DCEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8310615E1BF0AD0F00B4DCEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		831061601BF0AD0F00B4DCEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ITRTouchAuth/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ITR.ITRTouchAuth;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		831061611BF0AD0F00B4DCEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ITRTouchAuth/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ITR.ITRTouchAuth;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		831061431BF0AD0F00B4DCEB /* Build configuration list for PBXProject "ITRTouchAuth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8310615D1BF0AD0F00B4DCEB /* Debug */,
+				8310615E1BF0AD0F00B4DCEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8310615F1BF0AD0F00B4DCEB /* Build configuration list for PBXNativeTarget "ITRTouchAuth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				831061601BF0AD0F00B4DCEB /* Debug */,
+				831061611BF0AD0F00B4DCEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 831061401BF0AD0F00B4DCEB /* Project object */;
+}
