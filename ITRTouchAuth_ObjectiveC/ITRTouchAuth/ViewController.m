@@ -23,7 +23,7 @@
 - (IBAction)authoriseClicked:(id)sender {
     LAContext *myContext = [[LAContext alloc] init];
     NSError *authError = nil;
-    NSString *myLocalizedReasonString = @"To allow to view other screen";
+    NSString *myLocalizedReasonString = @"Authentication needed to allow to view other screen";
     
     if ([myContext canEvaluatePolicy:LAPolicyDeviceOwnerAuthenticationWithBiometrics error:&authError]) {
         [myContext evaluatePolicy:LAPolicyDeviceOwnerAuthenticationWithBiometrics

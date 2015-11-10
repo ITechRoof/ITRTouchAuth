@@ -20,7 +20,7 @@ class ViewController: UIViewController {
     func authoriseClicked() {
         let myContext = LAContext()
         var authError : NSError?
-        let myLocalizedReasonString = "To allow to view other screen"
+        let myLocalizedReasonString = "Authentication needed to allow to view other screen"
         
         if(myContext .canEvaluatePolicy(LAPolicy.DeviceOwnerAuthenticationWithBiometrics, error: &authError)) {
             [myContext .evaluatePolicy(LAPolicy.DeviceOwnerAuthenticationWithBiometrics, localizedReason: myLocalizedReasonString, reply: { (success: Bool, error: NSError?) -> Void in
